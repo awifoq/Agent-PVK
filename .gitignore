@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Outputs produced by running the scripts
+agentpvk/output/
+output/
+
+# Model checkpoints (trained weights are not redistributed)
+agentpvk/checkpoints/
+*.pt
+*.pth
+
+# Optional trained screening models
+agentpvk/tools/screening/models/
+*.json.tmp
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

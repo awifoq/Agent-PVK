@@ -1,0 +1,47 @@
+﻿id,iupac,name_zh,cas,smiles
+1,"sodium 2-[[(4R)-4-[(3R,5S,8R,9S,10S,13R,14S,17R)-3,7-dihydroxy-10,13-dimethyl-2,3,4,5,6,7,8,9,11,12,14,15,16,17-tetradecahydro-1H-cyclopenta[a]phenanthren-17-yl]pentanoyl]amino]acetate",甘氨鹅脱氧胆酸钠,16564-43-5,C[C@H](CCC(=O)NCC(=O)[O-])[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2C(C[C@H]4[C@@]3(CC[C@H](C4)O)C)O)C.[Na+]
+2,2-(4-fluorophenyl)ethanamine;hydrochloride,2-(4-氟苯基)乙胺盐酸盐,459-19-8,C1=CC(=CC=C1CCN)F.Cl
+3,ethyl 3-methyl-2-sulfanylideneimidazole-1-carboxylate,甲亢平,22232-54-8,CCOC(=O)N1C=CN(C1=S)C
+4,trimethyl(phenyl)azanium bromide,苯基三甲基溴化铵,16056-11-4,C[N+](C)(C)C1=CC=CC=C1.[Br-]
+5,2-(dimethylamino)ethanethioamide;hydrochloride,二甲氨基硫代乙酰胺盐酸盐,27366-72-9,CN(C)CC(=S)N.Cl
+6,"potassium tetrakis(2,3,4,5,6-pentafluorophenyl)boranuide",四(五氟苯基)硼酸钾,89171-23-3,[B-](C1=C(C(=C(C(=C1F)F)F)F)F)(C2=C(C(=C(C(=C2F)F)F)F)F)(C3=C(C(=C(C(=C3F)F)F)F)F)C4=C(C(=C(C(=C4F)F)F)F)F.[K+]
+7,"propane-1,3-diamine,1",3-二氨基丙烷二氢溴酸盐,18773-03-0,C(CN)CN
+8,"2,8-diiododibenzothiophene,2",8-二碘二苯并噻吩,105404-91-9,C1=CC2=C(C=C1I)C3=C(S2)C=CC(=C3)I
+9,potassium hexafluorophosphate,六氟磷酸钾,17084-13-8,F[P-](F)(F)(F)(F)F.[K+]
+10,dibenzofuran,二苯并呋喃,132-64-9,C1=CC=C2C(=C1)C3=CC=CC=C3O2
+11,sodium trifluoromethanesulfonate,三氟甲磺酸钠,2926-30-9,C(F)(F)(F)S(=O)(=O)[O-].[Na+]
+12,"potassium (2E,4E)-hexa-2,4-dienoate",山梨酸钾,24634-61-5,C/C=C/C=C/C(=O)[O-].[K+]
+13,"2-(3,5-dithiophen-2-ylphenyl)thiophene,1,3",5-三(2-噻吩基)苯,15509-95-2,C1=CSC(=C1)C2=CC(=CC(=C2)C3=CC=CS3)C4=CC=CS4
+14,3-sulfanylbenzoic acid,3-巯基苯甲酸,4869-59-4,C1=CC(=CC(=C1)S)C(=O)O
+15,"octane-1,8-diamine;dihydroiodide,1",8-辛二胺氢碘酸盐,2044283-92-1,C(CCCCN)CCCN.I.I
+16,N-iodo-1-thiophen-2-ylmethanamine,2-噻吩甲胺氢碘酸盐,2247100-32-7,C1=CSC(=C1)CNI
+17,chromen-2-one,香豆素,91-64-5,C1=CC=C2C(=C1)C=CC(=O)O2
+18,"6-chloropyrimidine-2,4-diamine,2","2,4-二氨基-6-氯嘧啶",156-83-2,C1=C(N=C(N=C1Cl)N)N
+19,N-methylmethanamine;hydroiodide,二甲胺氢碘酸盐,51066-74-1,SCNC.I
+20,ethyl carbamimidothioate;hydrobromide,S-乙基异硫脲氢溴酸盐,1071-37-0,CCSC(=N)N.Br
+21,N-[2-(5-methoxy-1H-indol-3-yl)ethyl]acetamide,褪黑素,73-31-4,CC(=O)NCCC1=CNC2=C1C=C(C=C2)OC
+22,"methanamine;hydrochloride,甲胺",盐酸盐,593-51-1,CN.Cl
+23,"(1S,3R,5R,6S,8R,10R,11S,13R,15R,16S,18R,20R,21S,23R,25R,26S,28R,30R,31S,33R,35R,36R,37R,38R,39R,40R,41R,42R,43R,44R,45R,46R,47R,48R,49R)-5,10,15,20,25,30,35-heptakis(hydroxymethyl)-2,4,7,9,12,14,17,19,22,24,27,29,32,34-tetradecaoxaoctacyclo[31.2.2.23,6.28,11.213,16.218,21.223,26.228,31]nonatetracontane-36,37,38,39,40,41,42,43,44,45,46,47,48,49-tetradecol",β-环糊精,7585-39-9,C([C@@H]1[C@@H]2[C@@H]([C@H]([C@H](O1)O[C@@H]3[C@H](O[C@@H]([C@@H]([C@H]3O)O)O[C@@H]4[C@H](O[C@@H]([C@@H]([C@H]4O)O)O[C@@H]5[C@H](O[C@@H]([C@@H]([C@H]5O)O)O[C@@H]6[C@H](O[C@@H]([C@@H]([C@H]6O)O)O[C@@H]7[C@H](O[C@@H]([C@@H]([C@H]7O)O)O[C@@H]8[C@H](O[C@H](O2)[C@@H]([C@H]8O)O)CO)CO)CO)CO)CO)CO)O)O)O
+24,piperazine;hydrochloride,哌嗪单盐酸盐,7542-23-6,C1CNCCN1.Cl
+25,"1,10-phenanthrolin-5-amine,5-氨基-1",10-菲咯啉,54258-41-2,C1=CC2=CC(=C3C=CC=NC3=C2N=C1)N
+26,3-aminopropane-1-sulfonic acid,3-氨基-1-丙烷磺酸,3687-18-1,C(CN)CS(=O)(=O)O
+27,formamide,甲酰胺,75-12-7,C(=O)N
+28,acetic acid;methanimidamide,醋酸甲脒,3473-63-0,CC(=O)O.C(=N)N
+29,aminomethanesulfonic acid,氨基甲烷磺酸,13881-91-9,C(N)S(=O)(=O)O
+30,(4-bromophenyl)thiourea,(4-溴苯基)-2-硫代脲,2646-30-2,C1=CC(=CC=C1NC(=S)N)Br
+31,4-methylbenzenesulfonic acid;hydrate,对甲苯磺酸水合物,6192-52-5,CC1=CC=C(C=C1)S(=O)(=O)O.O
+32,4-chloropyridine-2-carboxamide,4-氯吡啶-2-甲酰胺,99586-65-9,C1=CN=C(C=C1Cl)C(=O)N
+33,2-(dimethylamino)ethyl 2-methylprop-2-enoate,甲基丙烯酸二甲氨基乙酯,2867-47-2,CC(=C)C(=O)OCCN(C)CCC(=C)C(=O)OCCN(C)C
+34,[4-(aminomethyl)phenyl]methanamine,对苯二甲胺,539-48-0,C1=CC(=CC=C1CN)CN
+35,"6-fluoropyrimidine-2,4-diamine,2","2,4-二氨基-6-氟嘧啶",696-83-3,C1=C(N=C(N=C1F)N)N
+36,"2,5-dibromothieno[3,2-b]thiophene,2,5-二溴噻吩并 [3",2-b]噻吩,25121-87-3,C1=C(SC2=C1SC(=C2)Br)Br
+37,1-pyrazin-2-ylethanone,2-乙酰基吡嗪,22047-25-2,CC(=O)C1=NC=CN=C1
+38,1-amino-3-phenylthiourea,4-苯基-3-硫代氨基脲,5351-69-9,C1=CC=C(C=C1)NC(=S)NN
+39,"11-(2,5-dioxopyrrol-1-yl)undecanoic acid",11-马来酰胺基十一烷酸,57079-01-3,C1=CC(=O)N(C1=O)CCCCCCCCCCC(=O)O
+40,2-phenylethylphosphonic acid,(2-苯乙基)磷酸,4672-30-4,C1=CC=C(C=C1)CCP(=O)(O)O
+41,(2S)-2-amino-6-(diaminomethylideneamino)hexanoic acid;hydrochloride,L-高精氨酸盐酸盐,1483-01-8,C(CCN=C(N)N)C[C@@H](C(=O)O)N.Cl
+42,2-aminoethanesulfonic acid,2-氨基乙磺酸,107-35-7,C(CS(=O)(=O)O)N
+43,thian-4-amine;hydrochloride,4-氨基四氢噻喃盐酸盐,233763-40-1,C1CSCCC1N.Cl
+44,lead(2+) dithiocyanate,硫氰酸铅,592-87-0,C(#N)[S-].C(#N)[S-].[Pb+2]
+45,"1-iodopyrrolidine-2,5-dione",N-碘代丁二酰亚胺,516-12-1,C1CC(=O)N(C1=O)I
+46,thiophene-2-carboximidamide;hydroiodide,噻吩-2-甲脒氢碘酸盐,2568582-25-0,C1=CSC(=C1)C(=N)N.I

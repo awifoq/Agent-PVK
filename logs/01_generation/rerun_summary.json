@@ -1,0 +1,97 @@
+{
+  "n_seed": 137,
+  "n_generated": 895,
+  "seed_scaffolds": 40,
+  "total_scaffolds": 420,
+  "batch_trend": [
+    {
+      "batch": 1,
+      "count": 160,
+      "best": 0.8569830244540741,
+      "top10": 0.8431700726717262,
+      "mean": 0.5462860776650134
+    },
+    {
+      "batch": 2,
+      "count": 181,
+      "best": 0.8917153155970462,
+      "top10": 0.87639228379172,
+      "mean": 0.6119600872379976
+    },
+    {
+      "batch": 3,
+      "count": 168,
+      "best": 0.8726483576817481,
+      "top10": 0.8331723773827721,
+      "mean": 0.5552907781892202
+    },
+    {
+      "batch": 4,
+      "count": 193,
+      "best": 0.9078224178776696,
+      "top10": 0.8902600855048173,
+      "mean": 0.6726576202325789
+    },
+    {
+      "batch": 5,
+      "count": 193,
+      "best": 0.8889406923140453,
+      "top10": 0.872812632880348,
+      "mean": 0.6429285314669521
+    }
+  ],
+  "new_scaffolds_per_batch": [
+    {
+      "batch": 1,
+      "scaffolds": 96
+    },
+    {
+      "batch": 2,
+      "scaffolds": 78
+    },
+    {
+      "batch": 3,
+      "scaffolds": 71
+    },
+    {
+      "batch": 4,
+      "scaffolds": 83
+    },
+    {
+      "batch": 5,
+      "scaffolds": 52
+    }
+  ],
+  "cumulative_scaffolds": [
+    {
+      "batch": 1,
+      "cumulative_scaffolds": 136,
+      "new_scaffolds": 96
+    },
+    {
+      "batch": 2,
+      "cumulative_scaffolds": 214,
+      "new_scaffolds": 78
+    },
+    {
+      "batch": 3,
+      "cumulative_scaffolds": 285,
+      "new_scaffolds": 71
+    },
+    {
+      "batch": 4,
+      "cumulative_scaffolds": 368,
+      "new_scaffolds": 83
+    },
+    {
+      "batch": 5,
+      "cumulative_scaffolds": 420,
+      "new_scaffolds": 52
+    }
+  ],
+  "generator_counts": {
+    "ar_gen": 537,
+    "fragment_gen": 238,
+    "llm_gen": 120
+  }
+}

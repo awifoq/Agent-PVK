@@ -1,0 +1,132 @@
+﻿ai_rank,add1,add2,ai_score,opt_pce,synergy_delta,mechanisms,synergy_label,ai_recommendation
+1,2-(4-氟苯基)乙胺盐酸盐,甘氨鹅脱氧胆酸钠,0.85,23.14,1.33,"{'Dipole', 'Hbond', 'Lewis'}",synergy,AI-recommended (synergy)
+2,氨基甲烷磺酸,甘氨鹅脱氧胆酸钠,0.85,21.92,0.1,"{'Interface', 'Hbond', 'Lewis'}",neutral,Neutral
+3,2-氨基乙磺酸,甘氨鹅脱氧胆酸钠,0.85,22.35,0.54,"{'Interface', 'Hbond', 'Lewis'}",synergy,AI-recommended (synergy)
+4,2-(4-氟苯基)乙胺盐酸盐,褪黑素,0.85,21.22,-0.59,"{'Dipole', 'Hbond', 'Lewis'}",antagonistic,AI-flags avoidance (antagonistic)
+5,2-(4-氟苯基)乙胺盐酸盐,甲酰胺,0.85,22.06,0.25,"{'Dipole', 'Hbond', 'Lewis'}",neutral,Neutral
+6,(4-溴苯基)-2-硫代脲,2-(4-氟苯基)乙胺盐酸盐,0.85,22.39,0.58,"{'Dipole', 'Hbond', 'Lewis'}",synergy,AI-recommended (synergy)
+7,2-(4-氟苯基)乙胺盐酸盐,4-氯吡啶-2-甲酰胺,0.85,21.55,-0.26,"{'Dipole', 'Hbond', 'Lewis'}",neutral,Neutral
+8,2-(4-氟苯基)乙胺盐酸盐,4-苯基-3-硫代氨基脲,0.85,22.48,0.67,"{'Dipole', 'Hbond', 'Lewis'}",synergy,AI-recommended (synergy)
+9,2-(4-氟苯基)乙胺盐酸盐,N-碘代丁二酰亚胺,0.85,22.07,0.26,"{'Dipole', 'Hbond', 'Lewis'}",neutral,Neutral
+10,4-苯基-3-硫代氨基脲,对甲苯磺酸水合物,0.85,21.82,0.0,"{'Interface', 'Hbond', 'Lewis'}",neutral,Neutral
+11,甘氨鹅脱氧胆酸钠,甲亢平,0.7,22.44,0.63,"{'Hbond', 'Lewis'}",synergy,AI-recommended (synergy)
+12,二甲氨基硫代乙酰胺盐酸盐,甘氨鹅脱氧胆酸钠,0.7,21.93,0.11,"{'Hbond', 'Lewis'}",neutral,Neutral
+13,S-乙基异硫脲氢溴酸盐,甘氨鹅脱氧胆酸钠,0.7,22.31,0.5,"{'Hbond', 'Lewis'}",neutral,Neutral
+14,甘氨鹅脱氧胆酸钠,醋酸甲脒,0.7,22.01,0.2,"{'Hbond', 'Lewis'}",neutral,Neutral
+15,(4-溴苯基)-2-硫代脲,甘氨鹅脱氧胆酸钠,0.7,22.22,0.4,"{'Hbond', 'Lewis'}",neutral,Neutral
+16,4-氯吡啶-2-甲酰胺,甘氨鹅脱氧胆酸钠,0.7,22.2,0.39,"{'Hbond', 'Lewis'}",neutral,Neutral
+17,对苯二甲胺,甘氨鹅脱氧胆酸钠,0.7,22.17,0.36,"{'Hbond', 'Lewis'}",neutral,Neutral
+18,4-苯基-3-硫代氨基脲,甘氨鹅脱氧胆酸钠,0.7,21.7,-0.11,"{'Hbond', 'Lewis'}",neutral,Neutral
+19,11-马来酰胺基十一烷酸,甘氨鹅脱氧胆酸钠,0.7,22.5,0.69,"{'Hbond', 'Lewis'}",synergy,AI-recommended (synergy)
+20,L-高精氨酸盐酸盐,甘氨鹅脱氧胆酸钠,0.7,22.8,0.98,"{'Hbond', 'Lewis'}",synergy,AI-recommended (synergy)
+21,4-氨基四氢噻喃盐酸盐,甘氨鹅脱氧胆酸钠,0.7,21.73,-0.08,"{'Hbond', 'Lewis'}",neutral,Neutral
+22,甲酰胺,苯基三甲基溴化铵,0.7,22.41,0.6,"{'Hbond', 'Lewis'}",synergy,AI-recommended (synergy)
+23,(4-溴苯基)-2-硫代脲,苯基三甲基溴化铵,0.7,22.5,0.69,"{'Hbond', 'Lewis'}",synergy,AI-recommended (synergy)
+24,4-氯吡啶-2-甲酰胺,苯基三甲基溴化铵,0.7,21.43,-0.38,"{'Hbond', 'Lewis'}",antagonistic,AI-flags avoidance (antagonistic)
+25,4-苯基-3-硫代氨基脲,苯基三甲基溴化铵,0.7,22.44,0.62,"{'Hbond', 'Lewis'}",synergy,AI-recommended (synergy)
+26,二甲氨基硫代乙酰胺盐酸盐,褪黑素,0.7,20.89,-0.92,"{'Hbond', 'Lewis'}",antagonistic,AI-flags avoidance (antagonistic)
+27,二甲氨基硫代乙酰胺盐酸盐,甲酰胺,0.7,21.78,-0.04,"{'Hbond', 'Lewis'}",neutral,Neutral
+28,4-氯吡啶-2-甲酰胺,二甲氨基硫代乙酰胺盐酸盐,0.7,21.87,0.06,"{'Hbond', 'Lewis'}",neutral,Neutral
+29,4-苯基-3-硫代氨基脲,二甲氨基硫代乙酰胺盐酸盐,0.7,22.08,0.27,"{'Hbond', 'Lewis'}",neutral,Neutral
+30,4-苯基-3-硫代氨基脲,六氟磷酸钾,0.7,20.94,-0.87,"{'Hbond', 'Lewis'}",antagonistic,AI-flags avoidance (antagonistic)
+31,(4-溴苯基)-2-硫代脲,山梨酸钾,0.7,24.0,2.19,"{'Hbond', 'Lewis'}",synergy,AI-recommended (synergy)
+32,(4-溴苯基)-2-硫代脲,醋酸甲脒,0.7,22.43,0.61,"{'Hbond', 'Lewis'}",synergy,AI-recommended (synergy)
+33,2-(4-氟苯基)乙胺盐酸盐,3-氨基-1-丙烷磺酸,0.65,22.37,0.56,"{'Interface', 'Dipole', 'Lewis'}",synergy,AI-recommended (synergy)
+34,2-(4-氟苯基)乙胺盐酸盐,氨基甲烷磺酸,0.65,21.76,-0.05,"{'Interface', 'Dipole', 'Lewis'}",neutral,Neutral
+35,2-(4-氟苯基)乙胺盐酸盐,对甲苯磺酸水合物,0.65,22.01,0.2,"{'Interface', 'Dipole', 'Lewis'}",neutral,Neutral
+36,(2-苯乙基)磷酸,2-(4-氟苯基)乙胺盐酸盐,0.65,22.76,0.95,"{'Interface', 'Dipole', 'Lewis'}",synergy,AI-recommended (synergy)
+37,2-(4-氟苯基)乙胺盐酸盐,2-氨基乙磺酸,0.65,22.52,0.7,"{'Interface', 'Dipole', 'Lewis'}",synergy,AI-recommended (synergy)
+38,四(五氟苯基)硼酸钾,甘氨鹅脱氧胆酸钠,0.5,21.53,-0.28,"{'Dipole', 'Hbond'}",neutral,Neutral
+39,对甲苯磺酸水合物,甘氨鹅脱氧胆酸钠,0.5,21.51,-0.3,"{'Interface', 'Hbond'}",antagonistic,AI-flags avoidance (antagonistic)
+40,(2-苯乙基)磷酸,甘氨鹅脱氧胆酸钠,0.5,22.97,1.16,"{'Interface', 'Hbond'}",synergy,AI-recommended (synergy)
+41,甘氨鹅脱氧胆酸钠,硫氰酸铅,0.5,21.73,-0.08,"{'Dipole', 'Hbond'}",neutral,Neutral
+42,2-(4-氟苯基)乙胺盐酸盐,甲亢平,0.5,22.88,1.07,"{'Dipole', 'Lewis'}",synergy,AI-recommended (synergy)
+43,2-(4-氟苯基)乙胺盐酸盐,苯基三甲基溴化铵,0.5,22.83,1.02,"{'Dipole', 'Lewis'}",synergy,AI-recommended (synergy)
+44,2-(4-氟苯基)乙胺盐酸盐,二甲氨基硫代乙酰胺盐酸盐,0.5,21.46,-0.35,"{'Dipole', 'Lewis'}",antagonistic,AI-flags avoidance (antagonistic)
+45,2-(4-氟苯基)乙胺盐酸盐,四(五氟苯基)硼酸钾,0.5,22.15,0.34,"{'Dipole', 'Lewis'}",neutral,Neutral
+46,2-(4-氟苯基)乙胺盐酸盐,六氟磷酸钾,0.5,23.27,1.46,"{'Dipole', 'Lewis'}",synergy,AI-recommended (synergy)
+47,2-(4-氟苯基)乙胺盐酸盐,三氟甲磺酸钠,0.5,21.67,-0.15,"{'Dipole', 'Lewis'}",neutral,Neutral
+48,2-(4-氟苯基)乙胺盐酸盐,3-巯基苯甲酸,0.5,22.89,1.08,"{'Dipole', 'Lewis'}",synergy,AI-recommended (synergy)
+49,2-(4-氟苯基)乙胺盐酸盐,2-噻吩甲胺氢碘酸盐,0.5,22.18,0.37,"{'Dipole', 'Lewis'}",neutral,Neutral
+50,2-(4-氟苯基)乙胺盐酸盐,香豆素,0.5,21.54,-0.27,"{'Dipole', 'Lewis'}",neutral,Neutral
+51,2-(4-氟苯基)乙胺盐酸盐,二甲胺氢碘酸盐,0.5,22.74,0.93,"{'Dipole', 'Lewis'}",synergy,AI-recommended (synergy)
+52,2-(4-氟苯基)乙胺盐酸盐,S-乙基异硫脲氢溴酸盐,0.5,23.01,1.19,"{'Dipole', 'Lewis'}",synergy,AI-recommended (synergy)
+53,2-(4-氟苯基)乙胺盐酸盐,β-环糊精,0.5,22.68,0.87,"{'Dipole', 'Lewis'}",synergy,AI-recommended (synergy)
+54,2-(4-氟苯基)乙胺盐酸盐,哌嗪单盐酸盐,0.5,22.47,0.65,"{'Dipole', 'Lewis'}",synergy,AI-recommended (synergy)
+55,2-(4-氟苯基)乙胺盐酸盐,醋酸甲脒,0.5,22.22,0.41,"{'Dipole', 'Lewis'}",neutral,Neutral
+56,2-(4-氟苯基)乙胺盐酸盐,甲基丙烯酸二甲氨基乙酯,0.5,23.16,1.35,"{'Dipole', 'Lewis'}",synergy,AI-recommended (synergy)
+57,2-(4-氟苯基)乙胺盐酸盐,对苯二甲胺,0.5,23.24,1.43,"{'Dipole', 'Lewis'}",synergy,AI-recommended (synergy)
+58,2-(4-氟苯基)乙胺盐酸盐,2-乙酰基吡嗪,0.5,21.72,-0.09,"{'Dipole', 'Lewis'}",neutral,Neutral
+59,2-(4-氟苯基)乙胺盐酸盐,4-氨基四氢噻喃盐酸盐,0.5,20.4,-1.41,"{'Dipole', 'Lewis'}",antagonistic,AI-flags avoidance (antagonistic)
+60,2-(4-氟苯基)乙胺盐酸盐,硫氰酸铅,0.5,21.9,0.09,"{'Dipole', 'Lewis'}",neutral,Neutral
+61,2-(4-氟苯基)乙胺盐酸盐,噻吩-2-甲脒氢碘酸盐,0.5,21.36,-0.45,"{'Dipole', 'Lewis'}",antagonistic,AI-flags avoidance (antagonistic)
+62,3-氨基-1-丙烷磺酸,苯基三甲基溴化铵,0.5,21.45,-0.36,"{'Interface', 'Lewis'}",antagonistic,AI-flags avoidance (antagonistic)
+63,氨基甲烷磺酸,苯基三甲基溴化铵,0.5,22.4,0.59,"{'Interface', 'Lewis'}",synergy,AI-recommended (synergy)
+64,2-氨基乙磺酸,苯基三甲基溴化铵,0.5,22.41,0.59,"{'Interface', 'Lewis'}",synergy,AI-recommended (synergy)
+65,二甲氨基硫代乙酰胺盐酸盐,四(五氟苯基)硼酸钾,0.5,21.44,-0.37,"{'Dipole', 'Lewis'}",antagonistic,AI-flags avoidance (antagonistic)
+66,3-氨基-1-丙烷磺酸,二甲氨基硫代乙酰胺盐酸盐,0.5,22.42,0.6,"{'Interface', 'Lewis'}",synergy,AI-recommended (synergy)
+67,二甲氨基硫代乙酰胺盐酸盐,氨基甲烷磺酸,0.5,21.39,-0.42,"{'Interface', 'Lewis'}",antagonistic,AI-flags avoidance (antagonistic)
+68,二甲氨基硫代乙酰胺盐酸盐,对甲苯磺酸水合物,0.5,22.38,0.56,"{'Interface', 'Lewis'}",synergy,AI-recommended (synergy)
+69,(2-苯乙基)磷酸,二甲氨基硫代乙酰胺盐酸盐,0.5,21.35,-0.47,"{'Interface', 'Lewis'}",antagonistic,AI-flags avoidance (antagonistic)
+70,2-氨基乙磺酸,二甲氨基硫代乙酰胺盐酸盐,0.5,21.77,-0.04,"{'Interface', 'Lewis'}",neutral,Neutral
+71,二甲氨基硫代乙酰胺盐酸盐,硫氰酸铅,0.5,21.88,0.07,"{'Dipole', 'Lewis'}",neutral,Neutral
+72,S-乙基异硫脲氢溴酸盐,对甲苯磺酸水合物,0.5,22.79,0.98,"{'Interface', 'Lewis'}",synergy,AI-recommended (synergy)
+73,对甲苯磺酸水合物,氨基甲烷磺酸,0.5,21.72,-0.09,"{'Interface', 'Lewis'}",neutral,Neutral
+74,对甲苯磺酸水合物,对苯二甲胺,0.5,23.24,1.42,"{'Interface', 'Lewis'}",synergy,AI-recommended (synergy)
+75,甘氨鹅脱氧胆酸钠,苯基三甲基溴化铵,0.35,22.3,0.49,{'Hbond'},neutral,Neutral
+76,六氟磷酸钾,甘氨鹅脱氧胆酸钠,0.35,22.09,0.28,{'Hbond'},neutral,Neutral
+77,二苯并呋喃,甘氨鹅脱氧胆酸钠,0.35,21.84,0.03,{'Hbond'},neutral,Neutral
+78,三氟甲磺酸钠,甘氨鹅脱氧胆酸钠,0.35,21.84,0.03,{'Hbond'},neutral,Neutral
+79,2-噻吩甲胺氢碘酸盐,甘氨鹅脱氧胆酸钠,0.35,21.76,-0.05,{'Hbond'},neutral,Neutral
+80,甘氨鹅脱氧胆酸钠,香豆素,0.35,22.03,0.21,{'Hbond'},neutral,Neutral
+81,二甲胺氢碘酸盐,甘氨鹅脱氧胆酸钠,0.35,22.43,0.62,{'Hbond'},synergy,AI-recommended (synergy)
+82,甘氨鹅脱氧胆酸钠,褪黑素,0.35,21.19,-0.62,{'Hbond'},antagonistic,AI-flags avoidance (antagonistic)
+83,β-环糊精,甘氨鹅脱氧胆酸钠,0.35,22.03,0.21,{'Hbond'},neutral,Neutral
+84,哌嗪单盐酸盐,甘氨鹅脱氧胆酸钠,0.35,22.5,0.69,{'Hbond'},synergy,AI-recommended (synergy)
+85,甘氨鹅脱氧胆酸钠,甲基丙烯酸二甲氨基乙酯,0.35,23.26,1.45,{'Hbond'},synergy,AI-recommended (synergy)
+86,2-乙酰基吡嗪,甘氨鹅脱氧胆酸钠,0.35,21.7,-0.11,{'Hbond'},neutral,Neutral
+87,甲亢平,苯基三甲基溴化铵,0.35,22.73,0.91,{'Lewis'},synergy,AI-recommended (synergy)
+88,二甲氨基硫代乙酰胺盐酸盐,甲亢平,0.35,21.72,-0.09,{'Lewis'},neutral,Neutral
+89,二甲氨基硫代乙酰胺盐酸盐,苯基三甲基溴化铵,0.35,21.01,-0.8,{'Lewis'},antagonistic,AI-flags avoidance (antagonistic)
+90,3-巯基苯甲酸,苯基三甲基溴化铵,0.35,22.39,0.58,{'Lewis'},synergy,AI-recommended (synergy)
+91,S-乙基异硫脲氢溴酸盐,苯基三甲基溴化铵,0.35,23.28,1.47,{'Lewis'},synergy,AI-recommended (synergy)
+92,苯基三甲基溴化铵,褪黑素,0.35,22.24,0.43,{'Hbond'},neutral,Neutral
+93,苯基三甲基溴化铵,醋酸甲脒,0.35,21.71,-0.1,{'Lewis'},neutral,Neutral
+94,对苯二甲胺,苯基三甲基溴化铵,0.35,22.58,0.77,{'Lewis'},synergy,AI-recommended (synergy)
+95,4-氨基四氢噻喃盐酸盐,苯基三甲基溴化铵,0.35,23.02,1.21,{'Lewis'},synergy,AI-recommended (synergy)
+96,N-碘代丁二酰亚胺,苯基三甲基溴化铵,0.35,21.96,0.15,{'Hbond'},neutral,Neutral
+97,噻吩-2-甲脒氢碘酸盐,苯基三甲基溴化铵,0.35,23.14,1.33,{'Lewis'},synergy,AI-recommended (synergy)
+98,二甲氨基硫代乙酰胺盐酸盐,六氟磷酸钾,0.35,22.01,0.2,{'Lewis'},neutral,Neutral
+99,二甲氨基硫代乙酰胺盐酸盐,二苯并呋喃,0.35,21.64,-0.17,{'Lewis'},neutral,Neutral
+100,三氟甲磺酸钠,二甲氨基硫代乙酰胺盐酸盐,0.35,21.96,0.15,{'Lewis'},neutral,Neutral
+101,3-巯基苯甲酸,二甲氨基硫代乙酰胺盐酸盐,0.35,21.19,-0.62,{'Lewis'},antagonistic,AI-flags avoidance (antagonistic)
+102,2-噻吩甲胺氢碘酸盐,二甲氨基硫代乙酰胺盐酸盐,0.35,21.05,-0.76,{'Lewis'},antagonistic,AI-flags avoidance (antagonistic)
+103,二甲氨基硫代乙酰胺盐酸盐,香豆素,0.35,23.08,1.27,{'Lewis'},synergy,AI-recommended (synergy)
+104,S-乙基异硫脲氢溴酸盐,二甲氨基硫代乙酰胺盐酸盐,0.35,21.52,-0.29,{'Lewis'},neutral,Neutral
+105,二甲氨基硫代乙酰胺盐酸盐,哌嗪单盐酸盐,0.35,22.07,0.25,{'Lewis'},neutral,Neutral
+106,二甲氨基硫代乙酰胺盐酸盐,醋酸甲脒,0.35,21.81,0.0,{'Lewis'},neutral,Neutral
+107,二甲氨基硫代乙酰胺盐酸盐,甲基丙烯酸二甲氨基乙酯,0.35,23.04,1.23,{'Lewis'},synergy,AI-recommended (synergy)
+108,4-氨基四氢噻喃盐酸盐,二甲氨基硫代乙酰胺盐酸盐,0.35,21.88,0.07,{'Lewis'},neutral,Neutral
+109,2-乙酰基吡嗪,N-碘代丁二酰亚胺,0.35,21.61,-0.21,{'Hbond'},neutral,Neutral
+110,四(五氟苯基)硼酸钾,对甲苯磺酸水合物,0.3,22.69,0.88,"{'Interface', 'Dipole'}",synergy,AI-recommended (synergy)
+111,对甲苯磺酸水合物,硫氰酸铅,0.3,22.26,0.45,"{'Interface', 'Dipole'}",neutral,Neutral
+112,四(五氟苯基)硼酸钾,苯基三甲基溴化铵,0.15,22.45,0.64,{'Dipole'},synergy,AI-recommended (synergy)
+113,对甲苯磺酸水合物,苯基三甲基溴化铵,0.15,21.96,0.14,{'Interface'},neutral,Neutral
+114,(2-苯乙基)磷酸,苯基三甲基溴化铵,0.15,23.05,1.24,{'Interface'},synergy,AI-recommended (synergy)
+115,硫氰酸铅,苯基三甲基溴化铵,0.15,21.31,-0.5,{'Dipole'},antagonistic,AI-flags avoidance (antagonistic)
+116,六氟磷酸钾,对甲苯磺酸水合物,0.15,22.3,0.49,{'Interface'},neutral,Neutral
+117,2-噻吩甲胺氢碘酸盐,对甲苯磺酸水合物,0.15,22.79,0.98,{'Interface'},synergy,AI-recommended (synergy)
+118,对甲苯磺酸水合物,香豆素,0.15,22.67,0.86,{'Interface'},synergy,AI-recommended (synergy)
+119,对甲苯磺酸水合物,甲基丙烯酸二甲氨基乙酯,0.15,24.0,2.18,{'Interface'},synergy,AI-recommended (synergy)
+120,(2-苯乙基)磷酸,对甲苯磺酸水合物,0.15,22.67,0.86,{'Interface'},synergy,AI-recommended (synergy)
+121,(2-苯乙基)磷酸,甲基丙烯酸二甲氨基乙酯,0.15,23.82,2.01,{'Interface'},synergy,AI-recommended (synergy)
+122,六氟磷酸钾,苯基三甲基溴化铵,0.0,21.93,0.12,set(),neutral,Neutral
+123,二苯并呋喃,苯基三甲基溴化铵,0.0,22.14,0.33,set(),neutral,Neutral
+124,三氟甲磺酸钠,苯基三甲基溴化铵,0.0,22.87,1.06,set(),synergy,AI-recommended (synergy)
+125,2-噻吩甲胺氢碘酸盐,苯基三甲基溴化铵,0.0,22.32,0.51,set(),synergy,AI-recommended (synergy)
+126,苯基三甲基溴化铵,香豆素,0.0,23.04,1.22,set(),synergy,AI-recommended (synergy)
+127,二甲胺氢碘酸盐,苯基三甲基溴化铵,0.0,22.01,0.2,set(),neutral,Neutral
+128,β-环糊精,苯基三甲基溴化铵,0.0,21.74,-0.08,set(),neutral,Neutral
+129,哌嗪单盐酸盐,苯基三甲基溴化铵,0.0,23.45,1.64,set(),synergy,AI-recommended (synergy)
+130,甲基丙烯酸二甲氨基乙酯,苯基三甲基溴化铵,0.0,22.72,0.91,set(),synergy,AI-recommended (synergy)
+131,2-乙酰基吡嗪,苯基三甲基溴化铵,0.0,21.48,-0.33,set(),antagonistic,AI-flags avoidance (antagonistic)

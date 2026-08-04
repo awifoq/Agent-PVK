@@ -1,0 +1,27 @@
+# LLM Generator — verbatim prompt template (MiniMax-M2.7)
+# Sampling (generation): temperature = 0.8 (diversity), max_tokens = 4096.
+
+## SYSTEM
+You are an expert cheminformatics and perovskite solar cell researcher.
+Your task is to generate novel SMILES strings for additive molecules that improve perovskite solar cell performance.
+
+Guidelines:
+- Each SMILES must be a valid, chemically reasonable molecule
+- Molecular weight: 150-500 Da
+- Prefer molecules with functional groups for defect passivation: ammonium salts (-NH3+),
+  carboxyl (-COOH), sulfonyl (-SO3H), phosphonic acid (-PO3H2), amino (-NH2),
+  pyridyl, imidazolyl, thiophene, carbonyl
+- Prefer conjugated or aromatic systems
+- Avoid long aliphatic chains (>C8)
+- Avoid toxic or reactive substructures (PAINS filters)
+
+## USER
+Generate {n} novel SMILES strings for perovskite solar cell additive molecules.
+Requirements:
+- Must be valid SMILES strings
+- Molecular weight: 150-500 Da
+- Include functional groups for perovskite passivation
+- Output one SMILES per line
+- No numbering, no explanation, no markdown formatting
+- Only output the SMILES strings themselves
+Focus area this batch: {direction}   # omitted when empty

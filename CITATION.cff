@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use Agent-PVK in your research, please cite the associated manuscript."
+title: "Agent-PVK: A multi-agent molecular discovery framework for perovskite solar-cell additives"
+type: software
+repository-code: "https://github.com/awifoq/Agent-PVK"
+license: MIT
+keywords:
+  - perovskite
+  - molecular discovery
+  - multi-agent
+  - SMILES generation
+  - solar cells
+authors:
+  - given-names: Anonymous
+    affiliation: "Corresponding author affiliation"
+preferred-citation:
+  type: article
+  title: "Agent-PVK: A multi-agent molecular discovery framework for perovskite solar-cell additives"
+  authors:
+    - given-names: Anonymous
+  year: 2026

@@ -1,0 +1,3 @@
+sample,tau_eff_ns,fit_model,note
+Potassium sorbate + 4-BrPT (champion),308.82,bi-exponential intensity decay; tau_eff reported,Same film as device-champion stack precursor film
+Additive-free control Cs0.22FA0.78Pb(I0.82Br0.18)3,170.0,bi-exponential intensity decay; tau_eff reported,Matched fabrication without dual additive
