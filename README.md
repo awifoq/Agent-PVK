@@ -142,7 +142,7 @@ pipeline (generated with this framework):
 | `04_pair/`       | pair complementarity scores, weight sensitivity |
 | `05_optical/`    | AI-vs-optical dual labels, synergy assessment, optical ranking |
 | `06_validation/` | AI / human optical-PCE distributions |
-| `07_device/`     | device J–V metrics, baselines, TRPL lifetimes |
+| `07_device/`     | six dual-additive device J–V metrics, matched additive-free / single-additive baselines, TRPL lifetimes |
 
 ## Notes on ML models
 

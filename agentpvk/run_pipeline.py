@@ -72,6 +72,17 @@ def load_optical(opt_path):
     return OB, CTRL
 
 
+# Matched device baselines that were actually fabricated (additive-free +
+# champion constituents alone). Non-fabricated single-additive rows (PDMA,
+# 11MA, etc.) are intentionally excluded from the archived device outputs.
+DEVICE_BASELINES = [
+    dict(condition="Pure Control (no additive)", PCE=19.70, FF=79.70, Voc=1.207, Jsc=20.48),
+    dict(condition="4-BrPT alone", PCE=19.76, FF=79.62, Voc=1.206, Jsc=20.57),
+    dict(condition="Potassium sorbate alone", PCE=20.02, FF=79.52, Voc=1.201, Jsc=20.97),
+]
+DEVICE_CTRL_PCE = 19.70
+
+
 def load_device(dev_path):
     df_d = pd.read_csv(dev_path, encoding="gbk")
     dc = list(df_d.columns)
@@ -85,14 +96,10 @@ def load_device(dev_path):
     df_d["FF"] = df_d["FF"].astype(float)
     df_d["pk"] = df_d.apply(lambda r: pk(r["add1"], r["add2"]), axis=1)
     df_d["r"] = range(len(df_d))
-    df_d.loc[df_d["r"].between(0, 5), "cat"] = "A6"
-    df_d.loc[df_d["r"].between(8, 15), "cat"] = "M8"
-    df_d.loc[df_d["r"] == 7, "cat"] = "BL"
-    A6 = df_d[df_d["cat"] == "A6"]
-    M8 = df_d[df_d["cat"] == "M8"]
-    BL = df_d[df_d["cat"] == "BL"]
-    DCTRL = float(BL[BL["r"] == 7]["PCE"].values[0]) if len(BL[BL["r"] == 7]) else 21.87
-    return A6, M8, DCTRL
+    # First six rows are the dual-additive device cohort (A6).
+    A6 = df_d.iloc[:6].copy()
+    A6["cat"] = "A6"
+    return A6, pd.DataFrame(DEVICE_BASELINES), DEVICE_CTRL_PCE
 
 
 def bm_scaffold(smi):
@@ -163,7 +170,7 @@ def main():
     OPT_KEYS = set(OB["pk"])
     print(f"  Optical: {len(OB)} pairs, baseline={CTRL:.2f}%")
 
-    A6, M8, DCTRL = load_device(DEV)
+    A6, baselines, DCTRL = load_device(DEV)
 
     # ═══════════════════════════════════════════════════════════
     # S1: Agent 多轮生成
@@ -303,11 +310,13 @@ def main():
         dl = "synergy" if ds > 0.3 else ("antagonistic" if ds < -0.5 else "neutral")
         print(f"  #{int(r['r'])+1} {str(r['add1'])[:22]:22s}+{str(r['add2'])[:22]:22s} "
               f"PCE={r['PCE']:.2f}% FF={r['FF']:.1f} Voc={r['Voc']:.2f} {dl} [{ds:+.2f}pp]")
-    print(f"\n  Champion: {A6['PCE'].max():.2f}%")
+    print(f"\n  Champion: {A6['PCE'].max():.2f}%  (vs additive-free control {DCTRL:.2f}%)")
     A6.to_csv(S7 / "agent6_device.csv", index=False, encoding="utf-8-sig")
-    M8.to_csv(S7 / "manual8_device.csv", index=False, encoding="utf-8-sig")
-    pd.DataFrame([dict(condition="MACl", PCE=21.87, FF=83.71, Voc=1.25)]).to_csv(
-        S7 / "baseline.csv", index=False)
+    baselines.to_csv(S7 / "baseline.csv", index=False, encoding="utf-8-sig")
+    # Drop legacy non-fabricated single-additive archive if present.
+    legacy_m8 = S7 / "manual8_device.csv"
+    if legacy_m8.exists():
+        legacy_m8.unlink()
 
     log("DONE")
     print(f"  Output: {OUT}/")

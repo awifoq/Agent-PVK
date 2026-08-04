@@ -1,2 +1,4 @@
-condition,PCE,FF,Voc
-MACl,21.87,83.71,1.25
+condition,PCE,FF,Voc,Jsc
+Pure Control (no additive),19.70,79.70,1.207,20.48
+4-BrPT alone,19.76,79.62,1.206,20.57
+Potassium sorbate alone,20.02,79.52,1.201,20.97
