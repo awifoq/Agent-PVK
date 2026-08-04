@@ -311,7 +311,10 @@ def main():
         print(f"  #{int(r['r'])+1} {str(r['add1'])[:22]:22s}+{str(r['add2'])[:22]:22s} "
               f"PCE={r['PCE']:.2f}% FF={r['FF']:.1f} Voc={r['Voc']:.2f} {dl} [{ds:+.2f}pp]")
     print(f"\n  Champion: {A6['PCE'].max():.2f}%  (vs additive-free control {DCTRL:.2f}%)")
-    A6.to_csv(S7 / "agent6_device.csv", index=False, encoding="utf-8-sig")
+    # Drop process-column add3 (e.g. MACl) so archived dual-additive rows are not
+    # misread as ternary mixtures; MACl is a shared precursor additive, not a paired passivator.
+    A6_out = A6.drop(columns=[c for c in ("add3",) if c in A6.columns], errors="ignore")
+    A6_out.to_csv(S7 / "agent6_device.csv", index=False, encoding="utf-8-sig")
     baselines.to_csv(S7 / "baseline.csv", index=False, encoding="utf-8-sig")
     # Drop legacy non-fabricated single-additive archive if present.
     legacy_m8 = S7 / "manual8_device.csv"
